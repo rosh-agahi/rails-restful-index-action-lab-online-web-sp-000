@@ -1,4 +1,5 @@
 class StudentsController < ApplicationController::Base 
   def index 
-end
+    render students/index.html.erb
+  end
 end
